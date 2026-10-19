@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Precious Catering Services & Event Management | Ibadan</title>
+  <meta name="description" content="Explore catering options for events and gatherings in Agbowo, Ibadan. Contact Precious Catering Services to discuss your requirements and request a quotation." />
+  <meta property="og:title" content="Precious Catering Services & Event Management | Ibadan" />
+  <meta property="og:description" content="Explore catering options for events and gatherings in Agbowo, Ibadan. Contact Precious Catering Services to discuss your requirements and request a quotation." />
+  <meta property="og:type" content="website" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍲</text></svg>">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            burgundy: {
+              DEFAULT: '#58111A',
+              dark: '#400B13',
+              light: '#6E1822',
+              soft: '#F4ECEE',
+            },
+            cream: {
+              DEFAULT: '#FAF6F0',
+              ivory: '#FFFDF9',
+              alt: '#F3ECE2',
+            },
+            gold: {
+              DEFAULT: '#C59A3F',
+              hover: '#B0852E',
+              light: '#F8F1E1',
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      background-color: #FAF6F0;
+      color: #2D2424;
+    }
+    .font-serif {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col bg-cream text-neutral-800 antialiased selection:bg-gold/30 selection:text-burgundy">
+
+  <!-- TOP CONCEPT NOTICE BANNER -->
+  <div class="bg-burgundy-dark text-amber-100 text-xs py-2.5 px-4 text-center border-b border-gold/30 shadow-sm relative z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 flex-wrap">
+      <span class="inline-block bg-amber-400 text-burgundy font-bold uppercase text-[10px] tracking-wider px-2 py-0.5 rounded">Demo Concept</span>
+      <span>Website preview proposal. Business details, services, photographs, and booking arrangements require owner confirmation.</span>
+      <button onclick="openModal('checklistModal')" class="underline hover:text-white font-medium ml-1">Owner Checklist</button>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-40 bg-cream-ivory/95 backdrop-blur-md border-b border-neutral-200/80 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo / Brand Name -->
+        <a href="#home" class="flex flex-col group">
+          <span class="text-xs uppercase tracking-widest text-gold font-bold">Ibadan, Nigeria</span>
+          <span class="text-xl sm:text-2xl font-serif font-bold text-burgundy leading-tight group-hover:text-burgundy-light transition">
+            Precious Catering
+          </span>
+          <span class="text-[10px] text-neutral-500 uppercase tracking-wider">&amp; Event Management</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex items-center space-x-6 text-sm font-medium text-neutral-700">
+          <a href="#home" class="hover:text-burgundy transition">Home</a>
+          <a href="#services" class="hover:text-burgundy transition">Services</a>
+          <a href="#gallery" class="hover:text-burgundy transition">Gallery</a>
+          <a href="#about" class="hover:text-burgundy transition">About</a>
+          <a href="#contact" class="hover:text-burgundy transition">Contact</a>
+          
+          <!-- Verified Facebook Link in Header -->
+          <a 
+            href="https://www.facebook.com/preciouscaterersng/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="text-[#1877F2] hover:opacity-80 transition p-1.5 rounded-full hover:bg-neutral-100" 
+            title="Precious Catering on Facebook"
+            aria-label="Precious Catering on Facebook"
+          >
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+
+          <a href="#quote" class="bg-burgundy text-white px-5 py-2.5 rounded-full font-semibold hover:bg-burgundy-light transition shadow-sm hover:shadow">
+            Request a Quote
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex items-center md:hidden gap-2">
+          <a href="https://www.facebook.com/preciouscaterersng/" target="_blank" rel="noopener noreferrer" class="p-2 text-[#1877F2] border border-neutral-200 rounded-full hover:bg-neutral-100" aria-label="Precious Catering Facebook">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="tel:08053067604" class="p-2 text-burgundy border border-burgundy/20 rounded-full hover:bg-burgundy/5" aria-label="Call Precious Catering">
+            <svg class="w-5 h-5 fill-none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          </a>
+          <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="p-2 text-neutral-800 rounded-md focus:outline-none" aria-label="Toggle navigation menu">
+            <svg id="menuIcon" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+            <svg id="closeIcon" class="w-7 h-7 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-cream-ivory border-b border-neutral-200 px-6 py-5 shadow-lg space-y-4">
+      <a href="#home" onclick="toggleMobileMenu()" class="block text-base font-medium text-neutral-800 hover:text-burgundy">Home</a>
+      <a href="#services" onclick="toggleMobileMenu()" class="block text-base font-medium text-neutral-800 hover:text-burgundy">Services</a>
+      <a href="#gallery" onclick="toggleMobileMenu()" class="block text-base font-medium text-neutral-800 hover:text-burgundy">Gallery</a>
+      <a href="#about" onclick="toggleMobileMenu()" class="block text-base font-medium text-neutral-800 hover:text-burgundy">About</a>
+      <a href="#contact" onclick="toggleMobileMenu()" class="block text-base font-medium text-neutral-800 hover:text-burgundy">Contact</a>
+      <a href="https://www.facebook.com/preciouscaterersng/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-base font-medium text-[#1877F2]">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        <span>Follow on Facebook</span>
+      </a>
+      <a href="#quote" onclick="toggleMobileMenu()" class="block text-center bg-burgundy text-white py-3 rounded-xl font-semibold shadow">Request a Quote</a>
+      <div class="pt-2 border-t border-neutral-200 flex items-center justify-between text-xs text-neutral-500">
+        <span>📍 Agbowo, Ibadan</span>
+        <a href="tel:08053067604" class="text-burgundy font-semibold">08053067604</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="grow">
+
+    <!-- HERO SECTION -->
+    <section id="home" class="relative overflow-hidden py-16 sm:py-24 bg-gradient-to-b from-cream-ivory via-cream to-cream-alt/40 border-b border-neutral-200/60">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 bg-burgundy/10 text-burgundy text-xs font-semibold px-3 py-1.5 rounded-full">
+              <span class="w-2 h-2 rounded-full bg-burgundy animate-pulse"></span>
+              Event &amp; Gathering Catering in Ibadan
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-burgundy leading-tight">
+              Making Every Occasion <span class="italic text-gold">Delicious.</span>
+            </h1>
+
+            <p class="text-base sm:text-lg text-neutral-700 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+              Explore catering options for your next celebration or gathering. Contact us to discuss your menu, guest count, and event requirements.
+            </p>
+
+            <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <a href="#quote" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-burgundy text-white font-medium text-base hover:bg-burgundy-light transition shadow-md hover:shadow-lg">
+                Request a Quote
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </a>
+
+              <a href="https://wa.me/2348053067604?text=Hello%20Precious%20Catering%20Services.%20I%20would%20like%20to%20enquire%20about%20catering%20for%20an%20upcoming%20event.%20Please%20let%20me%20know%20the%20available%20services%20and%20how%20I%20can%20request%20a%20quotation." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-full bg-emerald-700 text-white font-medium text-base hover:bg-emerald-800 transition shadow-md">
+                <svg class="w-5 h-5 mr-2 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Chat on WhatsApp
+              </a>
+            </div>
+
+            <!-- Trust Bar / Key Highlights -->
+            <div class="grid grid-cols-3 gap-4 pt-6 border-t border-neutral-200/80 text-left">
+              <div>
+                <p class="text-xs uppercase text-neutral-500 font-semibold">Location</p>
+                <p class="text-sm font-bold text-burgundy">Agbowo, Ibadan</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase text-neutral-500 font-semibold">Delivery</p>
+                <p class="text-sm font-bold text-burgundy">Available in Area*</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase text-neutral-500 font-semibold">Social</p>
+                <a href="https://www.facebook.com/preciouscaterersng/" target="_blank" rel="noopener noreferrer" class="text-sm font-bold text-[#1877F2] hover:underline">Facebook Page</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none rounded-3xl overflow-hidden shadow-2xl border-4 border-cream-ivory">
+              <img 
+                src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1000&q=80" 
+                alt="Nigerian catering banquet spread showcase" 
+                class="w-full h-[400px] sm:h-[480px] object-cover hover:scale-105 transition duration-700 ease-out"
+                loading="eager"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm p-4 rounded-2xl shadow-lg border border-neutral-200">
+                <p class="text-xs font-semibold uppercase tracking-wider text-burgundy">Authentic Nigerian Catering</p>
+                <p class="text-xs text-neutral-600 mt-1">Illustrative photograph. Actual menu options, package tastings, and setups arranged on consultation.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-20 bg-cream-ivory">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="text-xs uppercase tracking-widest text-gold font-bold">What We Can Provide</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-burgundy mt-2">Proposed Catering Services</h2>
+          <p class="text-neutral-600 mt-3 text-sm sm:text-base">
+            From grand weddings to intimate family celebrations and corporate luncheons in Ibadan.
+          </p>
+          <div class="mt-3 inline-block bg-amber-50 border border-amber-200 text-amber-900 text-xs px-3 py-1 rounded-full">
+            Service categories are proposed concepts and subject to direct confirmation with the business owner.
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Card 1 -->
+          <div class="bg-cream rounded-2xl overflow-hidden border border-neutral-200 hover:shadow-xl transition flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1519225438865-6f372a15c898?auto=format&fit=crop&w=800&q=80" alt="Nigerian Wedding Catering Setup" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+              <span class="absolute top-3 right-3 bg-burgundy text-white text-[11px] font-semibold px-2.5 py-1 rounded-full">Events</span>
+            </div>
+            <div class="p-6 flex flex-col grow justify-between">
+              <div>
+                <h3 class="text-xl font-serif font-bold text-burgundy">Wedding Catering</h3>
+                <p class="text-neutral-600 text-sm mt-2 leading-relaxed">
+                  Sumptuous banquet catering and courteous service tailored for traditional and white wedding ceremonies.
+                </p>
+              </div>
+              <button onclick="selectServiceAndScroll('Wedding Catering')" class="mt-6 w-full py-2.5 px-4 rounded-xl border border-burgundy text-burgundy font-medium text-sm hover:bg-burgundy hover:text-white transition text-center">
+                Enquire About This Service
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-cream rounded-2xl overflow-hidden border border-neutral-200 hover:shadow-xl transition flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80" alt="Birthday & Celebration Party" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+              <span class="absolute top-3 right-3 bg-burgundy text-white text-[11px] font-semibold px-2.5 py-1 rounded-full">Parties</span>
+            </div>
+            <div class="p-6 flex flex-col grow justify-between">
+              <div>
+                <h3 class="text-xl font-serif font-bold text-burgundy">Birthday &amp; Private Celebrations</h3>
+                <p class="text-neutral-600 text-sm mt-2 leading-relaxed">
+                  Make milestones unforgettable with delicious jollof rice, seasoned meats, and custom catering menus.
+                </p>
+              </div>
+              <button onclick="selectServiceAndScroll('Birthday and Private Celebrations')" class="mt-6 w-full py-2.5 px-4 rounded-xl border border-burgundy text-burgundy font-medium text-sm hover:bg-burgundy hover:text-white transition text-center">
+                Enquire About This Service
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-cream rounded-2xl overflow-hidden border border-neutral-200 hover:shadow-xl transition flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80" alt="Corporate Luncheon Food Service" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+              <span class="absolute top-3 right-3 bg-burgundy text-white text-[11px] font-semibold px-2.5 py-1 rounded-full">Corporate</span>
+            </div>
+            <div class="p-6 flex flex-col grow justify-between">
+              <div>
+                <h3 class="text-xl font-serif font-bold text-burgundy">Corporate &amp; Office Catering</h3>
+                <p class="text-neutral-600 text-sm mt-2 leading-relaxed">
+                  Punctual, professional catering for executive meetings, workshops, end-of-year gatherings, and conferences.
+                </p>
+              </div>
+              <button onclick="selectServiceAndScroll('Corporate and Office Catering')" class="mt-6 w-full py-2.5 px-4 rounded-xl border border-burgundy text-burgundy font-medium text-sm hover:bg-burgundy hover:text-white transition text-center">
+                Enquire About This Service
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-cream rounded-2xl overflow-hidden border border-neutral-200 hover:shadow-xl transition flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80" alt="Nigerian Finger Foods and Small Chops" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+              <span class="absolute top-3 right-3 bg-burgundy text-white text-[11px] font-semibold px-2.5 py-1 rounded-full">Finger Foods</span>
+            </div>
+            <div class="p-6 flex flex-col grow justify-between">
+              <div>
+                <h3 class="text-xl font-serif font-bold text-burgundy">Party Food &amp; Small Chops</h3>
+                <p class="text-neutral-600 text-sm mt-2 leading-relaxed">
+                  Crisp puff-puff, spring rolls, samosas, gizzard kebabs, and snack platters for cocktail parties and arrivals.
+                </p>
+              </div>
+              <button onclick="selectServiceAndScroll('Party Food and Small Chops')" class="mt-6 w-full py-2.5 px-4 rounded-xl border border-burgundy text-burgundy font-medium text-sm hover:bg-burgundy hover:text-white transition text-center">
+                Enquire About This Service
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-cream rounded-2xl overflow-hidden border border-neutral-200 hover:shadow-xl transition flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Family Gathering Food Trays" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+              <span class="absolute top-3 right-3 bg-burgundy text-white text-[11px] font-semibold px-2.5 py-1 rounded-full">Home Events</span>
+            </div>
+            <div class="p-6 flex flex-col grow justify-between">
+              <div>
+                <h3 class="text-xl font-serif font-bold text-burgundy">Family Gatherings</h3>
+                <p class="text-neutral-600 text-sm mt-2 leading-relaxed">
+                  Hassle-free cooking for child naming celebrations, family reunions, thanksgiving services, and holiday feasts.
+                </p>
+              </div>
+              <button onclick="selectServiceAndScroll('Family Gatherings')" class="mt-6 w-full py-2.5 px-4 rounded-xl border border-burgundy text-burgundy font-medium text-sm hover:bg-burgundy hover:text-white transition text-center">
+                Enquire About This Service
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="bg-cream rounded-2xl overflow-hidden border border-neutral-200 hover:shadow-xl transition flex flex-col group">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=800&q=80" alt="Food Package Delivery" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" loading="lazy">
+              <span class="absolute top-3 right-3 bg-burgundy text-white text-[11px] font-semibold px-2.5 py-1 rounded-full">Logistics</span>
+            </div>
+            <div class="p-6 flex flex-col grow justify-between">
+              <div>
+                <h3 class="text-xl font-serif font-bold text-burgundy">Delivery Enquiries</h3>
+                <p class="text-neutral-600 text-sm mt-2 leading-relaxed">
+                  Public listing confirms local delivery is provided. Connect directly to check rates, timing, and coverage zones.
+                </p>
+              </div>
+              <button onclick="selectServiceAndScroll('Delivery Enquiries')" class="mt-6 w-full py-2.5 px-4 rounded-xl border border-burgundy text-burgundy font-medium text-sm hover:bg-burgundy hover:text-white transition text-center">
+                Enquire About This Service
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOD GALLERY SECTION -->
+    <section id="gallery" class="py-20 bg-cream">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-10">
+          <span class="text-xs uppercase tracking-widest text-gold font-bold">Visual Preview</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-burgundy mt-2">Food &amp; Event Presentation</h2>
+          <p class="text-neutral-600 mt-3 text-sm sm:text-base">
+            Click any picture below to view in full resolution.
+          </p>
+          <p class="text-xs text-neutral-500 italic mt-1">
+            *Representative stock imagery selected to illustrate proposed presentation standards. Business owner will replace with actual dish photos.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap justify-center gap-2 mb-8" id="galleryFilters">
+          <button onclick="filterGallery('all')" class="gallery-btn active px-4 py-1.5 rounded-full text-xs font-semibold bg-burgundy text-white transition">All Photos</button>
+          <button onclick="filterGallery('rice')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-cream-alt text-neutral-700 hover:bg-burgundy/10 transition">Rice &amp; Entrees</button>
+          <button onclick="filterGallery('protein')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-cream-alt text-neutral-700 hover:bg-burgundy/10 transition">Proteins &amp; Grills</button>
+          <button onclick="filterGallery('fingerfood')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-cream-alt text-neutral-700 hover:bg-burgundy/10 transition">Small Chops</button>
+          <button onclick="filterGallery('setup')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-cream-alt text-neutral-700 hover:bg-burgundy/10 transition">Buffet &amp; Tables</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="galleryContainer">
+          
+          <!-- Image 1 -->
+          <div class="gallery-item rice group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=85', 'Nigerian Party Jollof Rice spread')">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80" alt="Nigerian Party Jollof Rice spread" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Nigerian Party Jollof Rice</span>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="gallery-item rice group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1200&q=85', 'Fried Rice with Assorted Vegetables')">
+            <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=600&q=80" alt="Fried Rice with Assorted Vegetables" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Fried Rice with Vegetables</span>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="gallery-item protein group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=85', 'Peppered Meats and Grilled Barbecue')">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80" alt="Peppered Meats and Grilled Barbecue" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Assorted Peppered Proteins</span>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="gallery-item fingerfood group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=85', 'Small Chops, Puff-Puff & Spring Rolls')">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80" alt="Small Chops, Puff-Puff & Spring Rolls" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Party Small Chops &amp; Finger Food</span>
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div class="gallery-item setup group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=1200&q=85', 'Buffet Chafing Dishes Station')">
+            <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=600&q=80" alt="Buffet Chafing Dishes Station" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Buffet Warmers &amp; Stations</span>
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div class="gallery-item setup group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=85', 'Event Table Setting & Place Decor')">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Event Table Setting & Place Decor" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Banquet Table Settings</span>
+            </div>
+          </div>
+
+          <!-- Image 7 -->
+          <div class="gallery-item protein group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=85', 'Succulent Barbecue and Roasted Fish')">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Succulent Barbecue and Roasted Fish" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Grilled Proteins &amp; Fish</span>
+            </div>
+          </div>
+
+          <!-- Image 8 -->
+          <div class="gallery-item setup group relative rounded-2xl overflow-hidden aspect-square cursor-pointer shadow-sm border border-neutral-200" onclick="openLightbox('https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=85', 'Beverage & Celebration Service')">
+            <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=600&q=80" alt="Beverage & Celebration Service" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" loading="lazy">
+            <div class="absolute inset-0 bg-burgundy/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-4 text-center">
+              <span class="text-white text-xs sm:text-sm font-semibold">Celebration Beverage Service</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 bg-cream-ivory border-y border-neutral-200/80">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-cream rounded-3xl p-8 sm:p-12 border border-neutral-200 shadow-sm relative overflow-hidden">
+          
+          <div class="max-w-2xl">
+            <span class="text-xs uppercase tracking-widest text-gold font-bold">About The Business</span>
+            <h2 class="text-3xl font-serif font-bold text-burgundy mt-2">Serving Gatherings in Ibadan</h2>
+            
+            <p class="text-neutral-700 mt-4 leading-relaxed text-base sm:text-lg">
+              Precious Catering Services &amp; Event Management is listed as a catering business in Agbowo, Ibadan. We invite you to enquire about catering options for your upcoming gathering and discuss the arrangements that suit your event.
+            </p>
+
+            <div class="mt-8 p-5 bg-white/80 rounded-2xl border border-neutral-200/80">
+              <h4 class="text-xs uppercase tracking-wider text-burgundy font-bold">Owner Story &amp; Profile (Reserved Area)</h4>
+              <p class="text-xs text-neutral-500 mt-1 leading-normal">
+                This placeholder block is reserved for the business owner to add their background story, chef credentials, kitchen certifications, and company milestones prior to final launch.
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-neutral-200 flex flex-wrap items-center justify-between gap-4">
+            <div class="text-xs text-neutral-600">
+              <span class="font-semibold text-neutral-800">Public Address:</span> No. 20 Ojokondo Street, Agbowo, Ibadan, Oyo State
+            </div>
+            <div class="flex items-center gap-4">
+              <a href="https://www.facebook.com/preciouscaterersng/" target="_blank" rel="noopener noreferrer" class="text-xs font-semibold text-[#1877F2] hover:underline flex items-center gap-1.5">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook Page
+              </a>
+              <a href="tel:08053067604" class="text-sm font-bold text-burgundy hover:underline">
+                Call Direct: 08053067604
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING & QUOTATION FORM SECTION -->
+    <section id="quote" class="py-20 bg-cream-alt/40">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="text-xs uppercase tracking-widest text-gold font-bold">Plan Your Event</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-burgundy mt-2">Request a Catering Quotation</h2>
+          <p class="text-neutral-600 mt-3 text-sm">
+            Fill in your event details below. You can send the structured enquiry directly to WhatsApp or test the validation on this demo preview.
+          </p>
+        </div>
+
+        <div class="bg-cream-ivory p-6 sm:p-10 rounded-3xl border border-neutral-200 shadow-xl">
+          
+          <!-- Success notification banner (hidden by default) -->
+          <div id="formSuccessAlert" class="hidden mb-6 p-4 rounded-xl bg-emerald-50 border border-emerald-300 text-emerald-900 text-sm">
+            <p class="font-bold">✓ Form fields validated successfully!</p>
+            <p class="text-xs mt-1 text-emerald-800">
+              Note: This is a frontend demo preview—no private server database is connected. To deliver your request immediately to the business, please click <strong>"Continue via WhatsApp"</strong> below.
+            </p>
+          </div>
+
+          <form id="quoteForm" onsubmit="handleFormSubmit(event)" novalidate>
+            
+            <!-- Honeypot Anti-Spam Field (hidden) -->
+            <input type="text" id="hp_catering_field" name="website_trap_check" class="hidden" tabindex="-1" autocomplete="off" />
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              
+              <!-- Full Name -->
+              <div>
+                <label for="fullName" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Full Name <span class="text-rose-600">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="fullName" 
+                  name="fullName" 
+                  placeholder="e.g. Adebayo Ogunlesi"
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                  required
+                />
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-fullName">Please enter your full name.</span>
+              </div>
+
+              <!-- Phone Number -->
+              <div>
+                <label for="phone" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Phone Number <span class="text-rose-600">*</span>
+                </label>
+                <input 
+                  type="tel" 
+                  id="phone" 
+                  name="phone" 
+                  placeholder="e.g. 08053067604"
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                  required
+                />
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-phone">Please enter a valid phone number.</span>
+              </div>
+
+              <!-- Email (Optional) -->
+              <div>
+                <label for="email" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Email Address <span class="text-neutral-400 font-normal">(Optional)</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  placeholder="name@example.com"
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                />
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-email">Please enter a valid email format.</span>
+              </div>
+
+              <!-- Type of Event -->
+              <div>
+                <label for="eventType" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Type of Event <span class="text-rose-600">*</span>
+                </label>
+                <select 
+                  id="eventType" 
+                  name="eventType" 
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                  required
+                >
+                  <option value="">Select event type...</option>
+                  <option value="Wedding">Wedding</option>
+                  <option value="Birthday Celebration">Birthday Celebration</option>
+                  <option value="Corporate Gathering">Corporate Gathering</option>
+                  <option value="Family Event">Family Event</option>
+                  <option value="Anniversary">Anniversary</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-eventType">Please select an event type.</span>
+              </div>
+
+              <!-- Event Date (Optional) -->
+              <div>
+                <label for="eventDate" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Event Date <span class="text-neutral-400 font-normal">(Optional)</span>
+                </label>
+                <input 
+                  type="date" 
+                  id="eventDate" 
+                  name="eventDate" 
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                />
+              </div>
+
+              <!-- Event Location -->
+              <div>
+                <label for="eventLocation" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Event Location <span class="text-rose-600">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="eventLocation" 
+                  name="eventLocation" 
+                  placeholder="e.g. Agbowo / Bodija, Ibadan"
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                  required
+                />
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-eventLocation">Please specify the location or city.</span>
+              </div>
+
+              <!-- Number of Guests -->
+              <div>
+                <label for="guestCount" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Estimated Guests <span class="text-rose-600">*</span>
+                </label>
+                <input 
+                  type="number" 
+                  min="1" 
+                  id="guestCount" 
+                  name="guestCount" 
+                  placeholder="e.g. 150"
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                  required
+                />
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-guestCount">Please specify estimated guest count.</span>
+              </div>
+
+              <!-- Catering Service Required -->
+              <div>
+                <label for="serviceRequired" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Service Required <span class="text-rose-600">*</span>
+                </label>
+                <select 
+                  id="serviceRequired" 
+                  name="serviceRequired" 
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                  required
+                >
+                  <option value="">Select catering service...</option>
+                  <option value="Wedding Catering">Wedding Catering</option>
+                  <option value="Birthday and Private Celebrations">Birthday and Private Celebrations</option>
+                  <option value="Corporate and Office Catering">Corporate and Office Catering</option>
+                  <option value="Party Food and Small Chops">Party Food and Small Chops</option>
+                  <option value="Family Gatherings">Family Gatherings</option>
+                  <option value="Delivery Enquiries">Delivery Enquiries</option>
+                </select>
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-serviceRequired">Please select a service.</span>
+              </div>
+
+              <!-- Estimated Budget Range (Optional) -->
+              <div class="sm:col-span-2">
+                <label for="budgetRange" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Estimated Budget Range <span class="text-neutral-400 font-normal">(Optional)</span>
+                </label>
+                <select 
+                  id="budgetRange" 
+                  name="budgetRange" 
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                >
+                  <option value="">Select a general budget bracket...</option>
+                  <option value="Below ₦200,000">Below ₦200,000</option>
+                  <option value="₦200,000 - ₦500,000">₦200,000 - ₦500,000</option>
+                  <option value="₦500,000 - ₦1,000,000">₦500,000 - ₦1,000,000</option>
+                  <option value="₦1,000,000 - ₦2,500,000">₦1,000,000 - ₦2,500,000</option>
+                  <option value="Above ₦2,500,000">Above ₦2,500,000</option>
+                  <option value="Undecided / Open to Quotation">Undecided / Open to Quotation</option>
+                </select>
+              </div>
+
+              <!-- Menu / Food Preferences (Optional) -->
+              <div class="sm:col-span-2">
+                <label for="menuNotes" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Preferred Menu or Special Dishes <span class="text-neutral-400 font-normal">(Optional)</span>
+                </label>
+                <textarea 
+                  id="menuNotes" 
+                  name="menuNotes" 
+                  rows="3" 
+                  placeholder="e.g. Jollof rice, fried plantains, grilled chicken, goat meat pepper soup, small chops tray..."
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                ></textarea>
+              </div>
+
+              <!-- Additional Information (Optional) -->
+              <div class="sm:col-span-2">
+                <label for="additionalInfo" class="block text-xs font-semibold uppercase tracking-wider text-neutral-700 mb-1">
+                  Additional Notes or Timing Requirements <span class="text-neutral-400 font-normal">(Optional)</span>
+                </label>
+                <textarea 
+                  id="additionalInfo" 
+                  name="additionalInfo" 
+                  rows="2" 
+                  placeholder="Specify venue access times, delivery windows, or special requests..."
+                  class="w-full px-4 py-3 rounded-xl border border-neutral-300 bg-white focus:outline-none focus:ring-2 focus:ring-burgundy/40 text-sm"
+                ></textarea>
+              </div>
+
+              <!-- Privacy Acknowledgement Checkbox -->
+              <div class="sm:col-span-2">
+                <label class="flex items-start gap-3 cursor-pointer">
+                  <input 
+                    type="checkbox" 
+                    id="privacyConsent" 
+                    name="privacyConsent" 
+                    class="mt-1 h-4 w-4 rounded border-neutral-300 text-burgundy focus:ring-burgundy"
+                    required
+                  />
+                  <span class="text-xs text-neutral-600 leading-relaxed">
+                    I agree that the details provided will be used by Precious Catering Services to prepare and respond to this event enquiry. <button type="button" onclick="openModal('privacyModal')" class="text-burgundy underline font-medium">Read Privacy Statement</button>.
+                  </span>
+                </label>
+                <span class="text-xs text-rose-600 mt-1 hidden" id="err-privacyConsent">You must agree before continuing.</span>
+              </div>
+
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 items-center">
+              
+              <!-- WhatsApp Direct Submit Button -->
+              <button 
+                type="button" 
+                onclick="submitViaWhatsApp()" 
+                class="w-full sm:flex-1 py-4 px-6 rounded-full bg-emerald-700 text-white font-semibold text-sm hover:bg-emerald-800 transition flex items-center justify-center gap-2 shadow-md hover:shadow-lg"
+              >
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Continue via WhatsApp
+              </button>
+
+              <!-- Standard Form Validation / Test Demo Submit -->
+              <button 
+                type="submit" 
+                class="w-full sm:w-auto py-4 px-6 rounded-full border-2 border-burgundy text-burgundy font-semibold text-sm hover:bg-burgundy hover:text-white transition"
+              >
+                Validate Form (Demo)
+              </button>
+            </div>
+
+            <p class="text-[11px] text-neutral-500 text-center mt-3">
+              Pressing "Continue via WhatsApp" will format your answers and open WhatsApp on your phone or computer. You simply press "Send".
+            </p>
+
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & DIRECTORY VERIFICATION SECTION -->
+    <section id="contact" class="py-20 bg-cream-ivory">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="text-xs uppercase tracking-widest text-gold font-bold">Get In Touch</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-burgundy mt-2">Contact &amp; Connect</h2>
+          <p class="text-neutral-600 mt-2 text-sm sm:text-base">
+            Reach out directly by phone, WhatsApp, or connect on their official Facebook page.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Telephone Card -->
+          <div class="bg-cream p-6 rounded-2xl border border-neutral-200 text-center flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 bg-burgundy/10 text-burgundy rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-6 h-6 fill-none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <h3 class="font-serif font-bold text-burgundy text-lg">Direct Telephone</h3>
+              <p class="text-neutral-500 text-xs mt-1">Listed business line</p>
+              <p class="text-base font-bold text-neutral-800 mt-3 font-mono">08053067604</p>
+            </div>
+            <a href="tel:08053067604" class="mt-6 inline-block w-full py-2.5 rounded-xl bg-burgundy text-white text-xs font-semibold hover:bg-burgundy-light transition">
+              Call Now
+            </a>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="bg-cream p-6 rounded-2xl border border-neutral-200 text-center flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              </div>
+              <h3 class="font-serif font-bold text-burgundy text-lg">WhatsApp Chat</h3>
+              <p class="text-neutral-500 text-xs mt-1">Instant message enquiries</p>
+              <p class="text-base font-bold text-neutral-800 mt-3 font-mono">+234 805 306 7604</p>
+            </div>
+            <a href="https://wa.me/2348053067604?text=Hello%20Precious%20Catering%20Services.%20I%20would%20like%20to%20enquire%20about%20catering%20for%20an%20upcoming%20event." target="_blank" rel="noopener noreferrer" class="mt-6 inline-block w-full py-2.5 rounded-xl bg-emerald-700 text-white text-xs font-semibold hover:bg-emerald-800 transition">
+              Chat on WhatsApp
+            </a>
+          </div>
+
+          <!-- Official Facebook Card -->
+          <div class="bg-cream p-6 rounded-2xl border border-neutral-200 text-center flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 bg-blue-100 text-[#1877F2] rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </div>
+              <h3 class="font-serif font-bold text-burgundy text-lg">Official Facebook</h3>
+              <p class="text-neutral-500 text-xs mt-1">@preciouscaterersng</p>
+              <p class="text-xs text-neutral-600 mt-3 leading-relaxed">
+                Connect and browse recent event posts &amp; updates.
+              </p>
+            </div>
+            <a href="https://www.facebook.com/preciouscaterersng/" target="_blank" rel="noopener noreferrer" class="mt-6 inline-block w-full py-2.5 rounded-xl bg-[#1877F2] text-white text-xs font-semibold hover:bg-[#166fe5] transition shadow-xs">
+              View Facebook Page
+            </a>
+          </div>
+
+          <!-- Listed Physical Address Card -->
+          <div class="bg-cream p-6 rounded-2xl border border-neutral-200 text-center flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 bg-amber-100 text-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg class="w-6 h-6 text-amber-800 fill-none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              </div>
+              <h3 class="font-serif font-bold text-burgundy text-lg">Listed Address</h3>
+              <p class="text-neutral-500 text-xs mt-1">Directory location</p>
+              <p class="text-xs font-medium text-neutral-800 mt-3 leading-relaxed">
+                No. 20 Ojokondo Street, Agbowo, Ibadan, Oyo State, Nigeria.
+              </p>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=20+Ojokondo+Street+Agbowo+Ibadan+Oyo+State+Nigeria" target="_blank" rel="noopener noreferrer" class="mt-6 inline-block w-full py-2.5 rounded-xl border border-neutral-300 text-neutral-700 text-xs font-semibold hover:bg-neutral-100 transition">
+              Open in Maps
+            </a>
+          </div>
+
+        </div>
+
+        <div class="mt-8 p-4 rounded-xl bg-amber-50/70 border border-amber-200 text-center text-xs text-amber-900">
+          Notice: Address and telephone number are derived from public directory listings and should be formally confirmed with the business owner prior to final publication.
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-neutral-900 text-neutral-400 py-14 text-sm border-t border-neutral-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        
+        <div class="space-y-3 md:col-span-1">
+          <h4 class="text-base font-serif font-bold text-white">Precious Catering Services</h4>
+          <p class="text-xs text-neutral-400 leading-relaxed">
+            &amp; Event Management. Event catering and presentation based in Agbowo, Ibadan.
+          </p>
+          <div class="pt-2">
+            <a 
+              href="https://www.facebook.com/preciouscaterersng/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="inline-flex items-center gap-2 text-xs text-blue-400 hover:text-blue-300 transition"
+            >
+              <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              Follow on Facebook
+            </a>
+          </div>
+          <p class="text-[11px] text-amber-400 font-medium">Concept demonstration preview.</p>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-wider text-neutral-200 font-bold mb-3">Quick Navigation</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#home" class="hover:text-white transition">Home</a></li>
+            <li><a href="#services" class="hover:text-white transition">Services</a></li>
+            <li><a href="#gallery" class="hover:text-white transition">Gallery</a></li>
+            <li><a href="#about" class="hover:text-white transition">About</a></li>
+            <li><a href="#quote" class="hover:text-white transition">Request a Quote</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-wider text-neutral-200 font-bold mb-3">Location &amp; Contact</h4>
+          <p class="text-xs leading-relaxed text-neutral-400">
+            No. 20 Ojokondo Street, Agbowo, Ibadan, Oyo State, Nigeria.
+          </p>
+          <p class="text-xs mt-2 font-mono text-neutral-300">Tel: 08053067604</p>
+          <a href="https://www.facebook.com/preciouscaterersng/" target="_blank" rel="noopener noreferrer" class="text-xs text-[#1877F2] hover:underline mt-1 block">
+            facebook.com/preciouscaterersng
+          </a>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-wider text-neutral-200 font-bold mb-3">Compliance &amp; Demo</h4>
+          <ul class="space-y-2 text-xs">
+            <li><button onclick="openModal('privacyModal')" class="hover:text-white underline">Privacy Notice</button></li>
+            <li><button onclick="openModal('checklistModal')" class="hover:text-white underline">Owner Launch Checklist</button></li>
+            <li class="text-[11px] text-neutral-500">Only verified links included. No fabricated reviews.</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-neutral-800 text-center text-xs text-neutral-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p>&copy; <span id="currentYear"></span> Precious Catering Services &amp; Event Management. All rights reserved.</p>
+        <p class="text-[11px]">Proposed Website Prototype — Ready for Client Review</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON (FOR MOBILE / FAST ACCESS) -->
+  <a 
+    href="https://wa.me/2348053067604?text=Hello%20Precious%20Catering%20Services.%20I%20would%20like%20to%20enquire%20about%20catering%20for%20an%20upcoming%20event."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="fixed bottom-6 right-6 z-40 bg-emerald-600 hover:bg-emerald-700 text-white p-3.5 rounded-full shadow-2xl flex items-center justify-center transition-transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-emerald-300"
+    aria-label="Direct WhatsApp Chat"
+  >
+    <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+  </a>
+
+  <!-- LIGHTBOX MODAL (FOR ENLARGING PHOTOS) -->
+  <div id="lightboxModal" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4">
+    <div class="relative max-w-4xl w-full flex flex-col items-center">
+      <button onclick="closeLightbox()" class="absolute -top-12 right-0 text-white hover:text-amber-300 text-3xl font-bold focus:outline-none" aria-label="Close image">&times;</button>
+      <img id="lightboxImage" src="" alt="Enlarged view" class="max-h-[80vh] w-auto max-w-full rounded-lg shadow-2xl object-contain">
+      <p id="lightboxCaption" class="text-white text-sm mt-3 text-center"></p>
+    </div>
+  </div>
+
+  <!-- PRIVACY POLICY MODAL -->
+  <div id="privacyModal" class="fixed inset-0 z-50 bg-black/70 hidden items-center justify-center p-4">
+    <div class="bg-cream max-w-xl w-full p-6 sm:p-8 rounded-3xl shadow-2xl max-h-[85vh] overflow-y-auto border border-neutral-300">
+      <div class="flex justify-between items-center pb-4 border-b border-neutral-200">
+        <h3 class="font-serif font-bold text-burgundy text-xl">Privacy Notice (Demo)</h3>
+        <button onclick="closeModal('privacyModal')" class="text-neutral-500 hover:text-neutral-800 text-2xl font-bold">&times;</button>
+      </div>
+      <div class="mt-4 space-y-3 text-xs sm:text-sm text-neutral-600 leading-relaxed">
+        <p><strong>1. Information Collected:</strong> This demonstration website collects event details (such as your name, phone number, optional email, event date, location, and guest count) solely to calculate and formulate an event catering quotation.</p>
+        <p><strong>2. Use of Information:</strong> Submitted details are only used to prepare responses to your catering inquiry. We do not sell or distribute personal data to third parties.</p>
+        <p><strong>3. WhatsApp Routing:</strong> When choosing "Continue via WhatsApp", your inquiry answers are transferred directly to your own WhatsApp client so you can send them securely to the listed business line.</p>
+        <p><strong>4. Notice to Business Owner:</strong> Prior to real public deployment, the business owner must confirm their final data-handling practices and specify whether inquiries will be stored in a dedicated database or sent straight to email/WhatsApp.</p>
+      </div>
+      <div class="mt-6 text-right">
+        <button onclick="closeModal('privacyModal')" class="px-5 py-2 rounded-xl bg-burgundy text-white text-xs font-semibold">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- OWNER CHECKLIST MODAL -->
+  <div id="checklistModal" class="fixed inset-0 z-50 bg-black/70 hidden items-center justify-center p-4">
+    <div class="bg-cream max-w-xl w-full p-6 sm:p-8 rounded-3xl shadow-2xl max-h-[85vh] overflow-y-auto border border-neutral-300">
+      <div class="flex justify-between items-center pb-4 border-b border-neutral-200">
+        <h3 class="font-serif font-bold text-burgundy text-xl">Owner Launch Checklist</h3>
+        <button onclick="closeModal('checklistModal')" class="text-neutral-500 hover:text-neutral-800 text-2xl font-bold">&times;</button>
+      </div>
+      <div class="mt-4 space-y-3 text-xs sm:text-sm text-neutral-700 leading-relaxed">
+        <p class="font-semibold text-burgundy">Items for the business owner to confirm before launching live:</p>
+        <ul class="list-disc pl-5 space-y-1.5 text-xs text-neutral-600">
+          <li><strong>Confirm Phone &amp; WhatsApp:</strong> Verify that 08053067604 is the primary business WhatsApp line.</li>
+          <li><strong>Verify Business Address:</strong> Confirm that No. 20 Ojokondo Street, Agbowo, Ibadan is the current operational address.</li>
+          <li><strong>Social Media:</strong> Facebook page verified (<a href="https://www.facebook.com/preciouscaterersng/" target="_blank" class="text-burgundy underline">facebook.com/preciouscaterersng</a>). Check if Instagram or TikTok handles should also be added.</li>
+          <li><strong>Replace Stock Images:</strong> Supply 6-10 authentic high-resolution photographs of actual past food spreads, buffet warmers, and small chops.</li>
+          <li><strong>Confirm Service Offerings:</strong> Verify whether corporate catering, large-scale weddings, and small chops platters are all actively offered.</li>
+          <li><strong>Delivery Policy:</strong> Clarify delivery coverage zones across Ibadan and associated transport fees.</li>
+        </ul>
+      </div>
+      <div class="mt-6 text-right">
+        <button onclick="closeModal('checklistModal')" class="px-5 py-2 rounded-xl bg-burgundy text-white text-xs font-semibold">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT FOR FUNCTIONALITY -->
+  <script>
+    // Auto set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // Toggle Mobile Navigation
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const menuIcon = document.getElementById('menuIcon');
+      const closeIcon = document.getElementById('closeIcon');
+      
+      const isHidden = menu.classList.contains('hidden');
+      if (isHidden) {
+        menu.classList.remove('hidden');
+        menuIcon.classList.add('hidden');
+        closeIcon.classList.remove('hidden');
+      } else {
+        menu.classList.add('hidden');
+        menuIcon.classList.remove('hidden');
+        closeIcon.classList.add('hidden');
+      }
+    }
+
+    // Modal Handlers
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+    }
+
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    // Lightbox Handlers
+    function openLightbox(url, caption) {
+      const modal = document.getElementById('lightboxModal');
+      const img = document.getElementById('lightboxImage');
+      const cap = document.getElementById('lightboxCaption');
+      img.src = url;
+      img.alt = caption;
+      cap.textContent = caption;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightboxModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    // Close on escape key
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeLightbox();
+        closeModal('privacyModal');
+        closeModal('checklistModal');
+      }
+    });
+
+    // Gallery Filter Logic
+    function filterGallery(category) {
+      const items = document.querySelectorAll('.gallery-item');
+      const buttons = document.querySelectorAll('.gallery-btn');
+      
+      buttons.forEach(btn => {
+        btn.classList.remove('bg-burgundy', 'text-white');
+        btn.classList.add('bg-cream-alt', 'text-neutral-700');
+      });
+      event.target.classList.add('bg-burgundy', 'text-white');
+      event.target.classList.remove('bg-cream-alt', 'text-neutral-700');
+
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Service card "Enquire" action -> preselect & scroll
+    function selectServiceAndScroll(serviceName) {
+      const serviceSelect = document.getElementById('serviceRequired');
+      if (serviceSelect) {
+        serviceSelect.value = serviceName;
+      }
+      const quoteSection = document.getElementById('quote');
+      if (quoteSection) {
+        quoteSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    // Validate form inputs
+    function validateForm() {
+      let isValid = true;
+
+      // Honeypot check (anti-bot)
+      const hp = document.getElementById('hp_catering_field').value;
+      if (hp.trim() !== '') {
+        return false;
+      }
+
+      // Full Name
+      const name = document.getElementById('fullName');
+      const errName = document.getElementById('err-fullName');
+      if (!name.value.trim()) {
+        errName.classList.remove('hidden');
+        isValid = false;
+      } else {
+        errName.classList.add('hidden');
+      }
+
+      // Phone
+      const phone = document.getElementById('phone');
+      const errPhone = document.getElementById('err-phone');
+      const phoneRegex = /^[0-9+ ]{8,16}$/;
+      if (!phone.value.trim() || !phoneRegex.test(phone.value.trim())) {
+        errPhone.classList.remove('hidden');
+        isValid = false;
+      } else {
+        errPhone.classList.add('hidden');
+      }
+
+      // Email (Optional, validate format only if filled)
+      const email = document.getElementById('email');
+      const errEmail = document.getElementById('err-email');
+      if (email.value.trim()) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email.value.trim())) {
+          errEmail.classList.remove('hidden');
+          isValid = false;
+        } else {
+          errEmail.classList.add('hidden');
+        }
+      } else {
+        errEmail.classList.add('hidden');
+      }
+
+      // Event Type
+      const eventType = document.getElementById('eventType');
+      const errEventType = document.getElementById('err-eventType');
+      if (!eventType.value) {
+        errEventType.classList.remove('hidden');
+        isValid = false;
+      } else {
+        errEventType.classList.add('hidden');
+      }
+
+      // Event Location
+      const location = document.getElementById('eventLocation');
+      const errLocation = document.getElementById('err-eventLocation');
+      if (!location.value.trim()) {
+        errLocation.classList.remove('hidden');
+        isValid = false;
+      } else {
+        errLocation.classList.add('hidden');
+      }
+
+      // Guest Count
+      const guests = document.getElementById('guestCount');
+      const errGuests = document.getElementById('err-guestCount');
+      if (!guests.value || Number(guests.value) < 1) {
+        errGuests.classList.remove('hidden');
+        isValid = false;
+      } else {
+        errGuests.classList.add('hidden');
+      }
+
+      // Service Required
+      const service = document.getElementById('serviceRequired');
+      const errService = document.getElementById('err-serviceRequired');
+      if (!service.value) {
+        errService.classList.remove('hidden');
+        isValid = false;
+      } else {
+        errService.classList.add('hidden');
+      }
+
+      // Privacy Checkbox
+      const privacy = document.getElementById('privacyConsent');
+      const errPrivacy = document.getElementById('err-privacyConsent');
+      if (!privacy.checked) {
+        errPrivacy.classList.remove('hidden');
+        isValid = false;
+      } else {
+        errPrivacy.classList.add('hidden');
+      }
+
+      return isValid;
+    }
+
+    // Handle Demo Submit Button
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const valid = validateForm();
+      const alertBox = document.getElementById('formSuccessAlert');
+      if (valid) {
+        alertBox.classList.remove('hidden');
+        alertBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } else {
+        alertBox.classList.add('hidden');
+      }
+    }
+
+    // Continue via WhatsApp: builds clean summary and opens wa.me
+    function submitViaWhatsApp() {
+      const valid = validateForm();
+      if (!valid) {
+        return;
+      }
+
+      const name = document.getElementById('fullName').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const eventType = document.getElementById('eventType').value;
+      const eventDate = document.getElementById('eventDate').value;
+      const location = document.getElementById('eventLocation').value.trim();
+      const guests = document.getElementById('guestCount').value.trim();
+      const service = document.getElementById('serviceRequired').value;
+      const budget = document.getElementById('budgetRange').value;
+      const menuNotes = document.getElementById('menuNotes').value.trim();
+      const additionalInfo = document.getElementById('additionalInfo').value.trim();
+
+      // Compile message
+      let message = `Hello Precious Catering Services,\n\nI would like to request an event catering quotation with the following details:\n\n`;
+      message += `• Name: ${name}\n`;
+      message += `• Phone: ${phone}\n`;
+      if (email) message += `• Email: ${email}\n`;
+      message += `• Event Type: ${eventType}\n`;
+      if (eventDate) message += `• Proposed Date: ${eventDate}\n`;
+      message += `• Location: ${location}\n`;
+      message += `• Estimated Guests: ${guests}\n`;
+      message += `• Service Category: ${service}\n`;
+      if (budget) message += `• Budget Bracket: ${budget}\n`;
+      if (menuNotes) message += `• Menu / Food Preferences: ${menuNotes}\n`;
+      if (additionalInfo) message += `• Additional Notes: ${additionalInfo}\n`;
+      message += `\nPlease let me know your availability and how we may proceed. Thank you!`;
+
+      // Open WhatsApp directly without plus sign in international format: 2348053067604
+      const url = `https://wa.me/2348053067604?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+
+</body>
+</html>
